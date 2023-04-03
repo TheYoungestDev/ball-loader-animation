@@ -1,0 +1,48 @@
+
+
+.loader{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle{
+    height: 28px;
+    width: 28px;
+    background-color: red;
+    margin: 0 10px;
+    border-radius:50%;
+    animation: animate 2s infinite linear;
+}
+
+
+.circle:nth-child(1) {
+    animation-delay: .5s;
+}
+.circle:nth-child(1) {
+    animation-delay: .1s;
+}
+.circle:nth-child(3) {
+    animation-delay: 1.5s;
+}
+
+@keyframes animate {
+    0%, 100% {
+        transform: translateY(5px)
+    } 50% { 
+        transform: translateY(-25px)
+        
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
